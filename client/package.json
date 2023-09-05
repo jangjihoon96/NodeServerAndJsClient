@@ -1,0 +1,18 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "proxy": "http://localhost:4001",
+  "scripts": {
+    "start": "npx live-server src --host=localhost --port=3000 --no-browser",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "live-server": "^1.2.2"
+  }
+}
